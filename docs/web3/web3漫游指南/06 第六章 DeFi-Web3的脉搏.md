@@ -11,6 +11,7 @@ type: docs
 toc: true
 contributors: ["数字观察"]
 ---
+# 第六章 DeFi-Web3的脉搏
 
 > - 本文作者 [数字观察](https://new.qq.com/omn/author/20538613) ；
 > - 仅做部分排版调整；

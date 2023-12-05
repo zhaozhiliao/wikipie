@@ -12,6 +12,8 @@ toc: true
 contributors: ["数字观察"]
 ---
 
+# 第七章 NFT-感性繁荣与理性涅槃
+
 > - 本文作者 [数字观察](https://new.qq.com/omn/author/20538613) ；
 > - 仅做部分排版调整；
 
