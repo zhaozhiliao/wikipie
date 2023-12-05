@@ -9,7 +9,7 @@ export default defineConfig({
       // 插件添加与管理
       AutoSidebar({
         collapsed: false,
-        ignoreList: [".DS_Store","attachments"],
+        ignoreList: [".DS_Store", "attachments"],
         ignoreIndexItem: true,
         titleFromFile: true,
         beforeCreateSideBarItems: (fileNames) => {
@@ -19,10 +19,10 @@ export default defineConfig({
             const numB = parseInt(b.match(/\d+/), 10) || 0;
             return numA - numB;
           });
-        
+
           return sortedFileNames;
-        }        
-      })
+        },
+      }),
     ]
   },
   // 配置环境变量
@@ -89,5 +89,4 @@ export default defineConfig({
     //   placement: 'your-carbon-placement', 
     // },
   }
-
 })
