@@ -37,7 +37,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.png",
     // siteTitle: false 时，隐藏站点标题，siteTitle: "Hypothesis"启用时，会覆盖原title
-    siteTitle: "WikiPie",
+    siteTitle: "Hypothesis",
     // 开启搜索支持
     search: {
       provider: "local",

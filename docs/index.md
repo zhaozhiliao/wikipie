@@ -7,7 +7,7 @@ hero:
   text: "意义自然浮现"
   tagline: 这是一个位于世界边缘的小站~
   image:
-    src: ./public/homebanner.png
+    src: /homebanner.png
   actions:
     - theme: brand
       text: 日常更新
