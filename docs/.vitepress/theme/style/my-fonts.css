@@ -1,0 +1,7 @@
+/* .vitepress/theme/my-fonts.css */
+:root {
+    /* 正文字体 */
+    --vp-font-family-base: 'MiSans VF', sans-serif;
+    /* 代码字体 */
+    /* --vp-font-family-mono: 'MiSans VF', monospace; */
+}
