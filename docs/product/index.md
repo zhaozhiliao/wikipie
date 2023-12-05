@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /product/关于
+      link: /product/about
     - theme: alt
       text: 项目介绍
-      link: /product/关于
+      link: /product/about
 features:
   - title: 功能设计
     details: 由浅入深的对常见产品功能进行介绍与探讨

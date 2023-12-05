@@ -8,9 +8,22 @@ export default defineConfig({
     plugins: [
       // 插件添加与管理
       AutoSidebar({
+        collapsed: false,
+        ignoreList: [".DS_Store","attachments"],
+        ignoreIndexItem: true,
+        titleFromFile: true,
+        beforeCreateSideBarItems: (fileNames) => {
+          // 按文件名中的数字升序排序
+          const sortedFileNames = fileNames.sort((a, b) => {
+            const numA = parseInt(a.match(/\d+/), 10) || 0; // 提取数字部分，如果没有数字，默认为0
+            const numB = parseInt(b.match(/\d+/), 10) || 0;
+            return numA - numB;
+          });
         
+          return sortedFileNames;
+        }        
       })
-    ],
+    ]
   },
   // 配置环境变量
   base:

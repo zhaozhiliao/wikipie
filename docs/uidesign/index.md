@@ -11,7 +11,7 @@ hero:
       text: 开始阅读
       link: ./设计系统/1.getting-started.md
     - theme: alt
-      text: 设计系统(Design Token)
+      text: Design Token
       link: ./设计系统/1.getting-started.md
 features:
   - title: 设计笔记
