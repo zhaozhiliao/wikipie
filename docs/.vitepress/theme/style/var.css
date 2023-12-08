@@ -1,6 +1,6 @@
 /* var.css */
 /* 在此自定义样式 */
-/* @import './my-fonts.css'; */
+@import './my-fonts.css';
 /* :root {
     --vp-c-brand-1: #18794e;
     --vp-c-brand-2: #299764;
