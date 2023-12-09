@@ -9,19 +9,27 @@ hero:
   image:
     src: /homebanner.png
   actions:
-    - theme: brand
-      text: 日常更新
-      link: /posts/index
     - theme: alt
-      text: 关于本站
-      link: /aboutme
+      text: Blog
+      link: /posts/index
+    - theme: brand
+      text: 本站介绍
+      link: /about
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🌍
+    title: 博客
+    details: 记录生活与工作的日常，与感受。在“实践 — 总结 — 再实践”的反复循环
+    link: /posts/
+    # linkText: Vite
+  - icon: 📖
+    title: 营销小册
+    details: 开箱即用，关于互联网营销产品设计的系统性总结小册子
+    link: /marketing/
+    # linkText: 浏览
+  - icon: 🗞️
+    title: Alleyread
+    details: 一款简单的 Newsletter 导航站，收录了国内外优质周刊
+    link: https://alleyread.com/
+    # linkText: 访问
 ---
-

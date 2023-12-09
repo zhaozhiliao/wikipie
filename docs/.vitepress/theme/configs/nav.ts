@@ -13,7 +13,7 @@ export const nav: DefaultTheme.Config['nav'] = [
         text: "更多",
         items: [
           { text: "好物推荐", link: "/good-list" },
-          { text: "关于我", link: "/aboutme" },
+          { text: "关于我", link: "/about" },
         ],
       }
 ]

@@ -1,28 +1,13 @@
 import { defineConfig } from 'vitepress'
 import { nav } from './theme/configs/nav'
-import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar';
+import { sidebar } from './theme/configs/sidebar'
+// import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   vite: {
     plugins: [
       // 插件添加与管理
-      AutoSidebar({
-        collapsed: false,
-        ignoreList: [".DS_Store", "attachments"],
-        ignoreIndexItem: true,
-        titleFromFile: true,
-        beforeCreateSideBarItems: (fileNames) => {
-          // 按文件名中的数字升序排序
-          const sortedFileNames = fileNames.sort((a, b) => {
-            const numA = parseInt(a.match(/\d+/), 10) || 0; // 提取数字部分，如果没有数字，默认为0
-            const numB = parseInt(b.match(/\d+/), 10) || 0;
-            return numA - numB;
-          });
-
-          return sortedFileNames;
-        },
-      }),
     ]
   },
   // 配置环境变量
@@ -70,8 +55,7 @@ export default defineConfig({
     // 顶部导航配置
     nav,
     // 侧边栏配置
-    // sidebar,
-
+    sidebar,
     // 社交链接配置
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zhaozhiliao' },

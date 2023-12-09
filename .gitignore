@@ -9,3 +9,4 @@ dist/
 
 # 其他忽略规则...
 .DS_Store
+.vscode/
