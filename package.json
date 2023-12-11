@@ -10,8 +10,5 @@
     "docs:dev": "vitepress dev docs --port 5173",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
-  },
-  "dependencies": {
-    "vite-plugin-vitepress-auto-sidebar": "^1.6.1"
   }
 }

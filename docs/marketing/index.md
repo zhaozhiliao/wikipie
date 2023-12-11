@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /marketing/1.由此开始/02认识营销
+      link: /marketing/前言/由此开始
     - theme: alt
       text: 项目介绍
-      link: /marketing/1.由此开始/01关于
+      link: /marketing/前言/由此开始
 features:
   - title: 由浅入深
     details: 浅显易懂地阐述营销系统架构和各模块的讲解
