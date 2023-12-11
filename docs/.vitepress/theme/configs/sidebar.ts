@@ -31,4 +31,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
           ],
     }
   ],
+  // vitepress
+  
 }
