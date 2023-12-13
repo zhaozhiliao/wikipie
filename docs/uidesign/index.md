@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "设计工程"
   text: "Design Engineering"
-  tagline: 
+  tagline:
   actions:
     - theme: brand
       text: 开始阅读
-      link: ./设计系统/什么是设计系统.md
+      link: ./designExercise/
     - theme: alt
       text: Design Token
-      link: ./设计系统/什么是设计系统.md
+      link: ../designToken/
 features:
   - title: 设计笔记
     details: 由浅入深的对常见产品功能进行介绍与探讨

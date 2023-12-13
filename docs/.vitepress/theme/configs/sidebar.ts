@@ -1,21 +1,33 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-  // 设计工程
-  '/uidesign/': [
+  // designToken
+  '/designToken/': [
     {
-      text: '设计系统',
+      // text: 'DesignToken',
       items: [
-        { text: '什么是设计系统', link: '/uidesign/设计系统/什么是设计系统' },
-        { text: '色彩体系',
+        { text: '关于 DesignToken', link: '/designToken/' },
+        { text: '色彩',
           collapsed:false,
           items: [
-            { text: '色彩层级', link: '/uidesign/设计系统/色彩体系/01色彩层级' },
-            { text: '命名规范', link: '/uidesign/设计系统/色彩体系/02命名规范' },
-            { text: '交付', link: '/uidesign/设计系统/色彩体系/03交付' },
+            { text: '简述', link: '/designToken/色彩/简述' },
+            { text: '色彩层级', link: '/designToken/色彩/色彩层级' },
+            { text: '命名规范', link: '/designToken/色彩/命名规范' },
+            { text: '交付', link: '/designToken/色彩/交付' },
           ]
         },
         { text: '相关资源', link: '/uidesign/设计系统/design-token-resource' },
+      ],
+    },
+  ],
+  // designToken
+  '/uidesign/': [
+    {
+      // text: 'designExercise',
+      items: [
+        { text: '说明', link: '/uidesign/designExercise/' },
+        { text: '小组件临摹', link: '/uidesign/designExercise/componentDesignExercise' },
+        { text: '页面临摹', link: '/uidesign/designExercise/pageDesignExercise' },
       ],
     },
   ],
