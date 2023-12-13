@@ -8,7 +8,7 @@ hero:
   tagline:
   actions:
     - theme: brand
-      text: 开始阅读
+      text: 临摹练习
       link: ./designExercise/
     - theme: alt
       text: Design Token
@@ -16,8 +16,11 @@ hero:
 features:
   - title: 设计笔记
     details: 由浅入深的对常见产品功能进行介绍与探讨
-  - title: 合集
-    details: Figma 设计合集
-  - title: 相关推荐
-    details: 推荐设计类优质文章与资源
+    link: ../designToken/
+  - title: 作品集
+    details: Figma 设计作品合集
+    link: https://www.figma.com/@zhaozhiliao
+  - title: 临摹练习
+    details: 日常临摹与练习
+    link: ./designExercise/
 ---
