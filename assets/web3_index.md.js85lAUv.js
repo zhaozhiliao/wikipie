@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./chunks/framework.rW_MhUre.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"web3/index.md","filePath":"web3/index.md","lastUpdated":1702278220000}'),n={name:"web3/index.md"};function r(o,s,d,c,i,p){return t(),a("div")}const f=e(n,[["render",r]]);export{m as __pageData,f as default};

@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as s}from"./chunks/framework.rW_MhUre.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vitepress/index.md","filePath":"vitepress/index.md","lastUpdated":1702278220000}'),a={name:"vitepress/index.md"};function r(n,i,o,d,c,p){return t(),s("div")}const f=e(a,[["render",r]]);export{m as __pageData,f as default};
