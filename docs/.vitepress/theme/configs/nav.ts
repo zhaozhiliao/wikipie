@@ -8,7 +8,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: "设计工程", link: "/uidesign/" },
       { text: "AI GO", link: "/aigo/" },
       { text: "Web3", link: "/web3/" },
-      { text: "Vitepress", link: "/vitepress/about" },
+      { text: "Vitepress", link: "/vitepress/" },
       {
         text: "更多",
         items: [

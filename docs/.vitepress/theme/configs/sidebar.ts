@@ -20,7 +20,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ],
     },
   ],
-  // designToken
+  // designExercise
   '/uidesign/': [
     {
       // text: 'designExercise',
@@ -28,6 +28,18 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '说明', link: '/uidesign/designExercise/' },
         { text: '小组件临摹', link: '/uidesign/designExercise/componentDesignExercise' },
         { text: '页面临摹', link: '/uidesign/designExercise/pageDesignExercise' },
+      ],
+    },
+  ],
+  // vitepress
+  '/vitepress/': [
+    {
+      // text: 'vitepress',
+      items: [
+        { text: '什么是 VitePress？', link: '/vitepress/' },
+        { text: '快速上手', link: '/vitepress/快速上手' },
+        { text: '配置front-matter', link: '/vitepress/配置front-matter' },
+        { text: '线上自动化部署', link: '/vitepress/线上自动化部署' },
       ],
     },
   ],

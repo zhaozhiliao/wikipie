@@ -58,9 +58,9 @@ export default defineConfig({
     sidebar,
     // 社交链接配置
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/zhaozhiliao' },
-      { icon: 'twitter', link: 'https://twitter.com/' }, 
-      { icon: 'discord', link: 'https://chat.vitejs.dev/' },  
+      // { icon: 'github', link: 'https://github.com/zhaozhiliao' },
+      { icon: 'twitter', link: 'https://twitter.com/lovern1314' }, 
+      // { icon: 'discord', link: 'https://chat.vitejs.dev/' },  
     ],
     // 配置footer
     footer: {
