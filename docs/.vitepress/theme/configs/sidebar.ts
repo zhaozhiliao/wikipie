@@ -1,6 +1,23 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
+  // 产品磨刀石
+  '/productWhetstone/': [
+    {
+      text: '磨刀石',
+      items: [
+        { text: '说明', link: '/productWhetstone/' },
+        { text: '频道页',
+          collapsed:false,
+          items: [
+            { text: '简述', link: '/productWhetstone/channelPage/' },
+            { text: '产品参考', link: '/productWhetstone/channelPage/functionalCase' },
+            { text: 'PRD侧写', link: '/productWhetstone/channelPage/prdDesign' },
+          ]
+        },
+      ],
+    },
+  ],
   // designToken
   '/designToken/': [
     {

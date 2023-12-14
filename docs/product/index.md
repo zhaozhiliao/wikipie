@@ -8,11 +8,11 @@ hero:
   tagline: 互联网产品系统构建手册 v1.0
   actions:
     - theme: brand
-      text: 开始阅读
-      link: /product/about
+      text: 有赞产品设计原则
+      link: /product/youzanchanpinsheji
     - theme: alt
-      text: 项目介绍
-      link: /product/about
+      text: 磨刀石
+      link: ../productWhetstone/
 features:
   - title: 功能设计
     details: 由浅入深的对常见产品功能进行介绍与探讨
