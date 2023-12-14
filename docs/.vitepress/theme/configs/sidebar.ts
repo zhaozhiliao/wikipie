@@ -15,6 +15,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             { text: 'PRD侧写', link: '/productWhetstone/channelPage/prdDesign' },
           ]
         },
+        { text: '筛选器',
+          collapsed:false,
+          items: [
+            { text: '简述', link: '/productWhetstone/filter/' },
+            { text: '产品参考', link: '/productWhetstone/filter/functionalCase' },
+            { text: 'PRD侧写', link: '/productWhetstone/filter/prdDesign' },
+          ]
+        },
       ],
     },
   ],
