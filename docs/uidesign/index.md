@@ -13,6 +13,12 @@ hero:
     - theme: alt
       text: Design Token
       link: ../designToken/
+    - theme: brand
+      text: 设计原则手册-字节跳动
+      link: https://s75w5y7vut.feishu.cn/docs/doccn3BatnScBJe7wD7K3S5poFf#
+    - theme: brand
+      text: 设计原则手册-小红书
+      link: https://rpdc.xiaohongshu.com/52-design-principles
 features:
   - title: 设计笔记
     details: 由浅入深的对常见产品功能进行介绍与探讨
